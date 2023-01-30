@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CardChoose({ title, content, img, slogan, show }) {
   return (
-    <div className="max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow-xl transition-all">
+    <div className="max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-xl transition-all">
       <Image
         className="w-24 py-5"
         src={img}

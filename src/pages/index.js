@@ -57,7 +57,7 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="container h-auto mx-auto my-20 flex flex-col md:flex-row justify-around gap-10 px-10 md:p-0">
+        <section className="container h-auto mx-auto my-20 flex flex-col md:flex-row justify-around px-10 md:p-0">
           <CardChoose
             title={"Entrenamiento personalizado"}
             content={`¿Te gustaria poder tener una rutina de ejercicio personalizada? Pues este es tu plan. Consigue tu plan personalizado en tan solo 5 o 10 minutos`}
@@ -71,8 +71,8 @@ export default function Home() {
             slogan={"¿A qué esperas?"}
           />
         </section>
-        <section className=" container mx-auto">
-          <div className="flex flex-col-reverse lg:flex-row justify-between items-center">
+        <section className=" container mx-auto  ">
+          <div className="flex flex-col-reverse lg:flex-row justify-around items-center">
             <div className="border-4 border-pink-700 p-7 m-5 max-w-2xl max-h-auto ">
               <h2 className="text-4xl lg:text-6xl uppercase font-light">
                 ¿Estás listo <br />
