@@ -57,7 +57,7 @@ export default function Home() {
             </button>
           </div>
         </section>
-        <section className="container h-auto mx-auto my-20 flex flex-col md:flex-row justify-around px-10 md:p-0">
+        <section className="container h-auto mx-auto my-20 gap-20 xl:gap-0 flex flex-col md:flex-row justify-around px-10 md:p-0">
           <CardChoose
             title={"Entrenamiento personalizado"}
             content={`¿Te gustaria poder tener una rutina de ejercicio personalizada? Pues este es tu plan. Consigue tu plan personalizado en tan solo 5 o 10 minutos`}
