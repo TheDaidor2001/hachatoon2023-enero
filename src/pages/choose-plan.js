@@ -1,5 +1,4 @@
 import Image from "next/image";
-import img from "../../public/inicio.jpg";
 import Link from "next/link";
 import workout from "../../public/gym-medal-necklace-svgrepo-com.svg";
 import diet from "../../public/diet-calendar-svgrepo-com.svg";
@@ -31,6 +30,8 @@ export default function ChoosePlan() {
             personalizarlo dependiendo de tus carácterísticas y objetivos que
             desees alcanzar.`}
             img={workout}
+            slogan={'¿Estás listo?'}
+            show={true}
           />
 
           <CardChoose
@@ -40,6 +41,8 @@ export default function ChoosePlan() {
               personalizarlo. Esto es orientativo así que puedes tomarlo como
               una referencia para poder hacer una dieta tu mismo.`}
             img={diet}
+            slogan={'¿A qué esperas?'}  
+            show={true}            
           />
         </section>
       </main>

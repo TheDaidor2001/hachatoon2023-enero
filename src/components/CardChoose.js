@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function CardChoose({ title, content, img }) {
+export default function CardChoose({ title, content, img, slogan, show }) {
   return (
-    <div class="max-w-2xl lg:mt-40 p-6 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-700 hover:shadow-pink-700/50 transition-all">
+    <div className="max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow-xl transition-all">
       <Image
         className="w-24 py-5"
         src={img}
@@ -12,31 +12,33 @@ export default function CardChoose({ title, content, img }) {
         height={300}
       />
 
-      <h5 class="mb-2 text-4xl font-black tracking-tight text-gray-900 dark:text-white">
+      <h5 className="text-2xl mb-2 sm:text-4xl font-black tracking-tight text-gray-900 dark:text-white">
         {title}
       </h5>
-      <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-        {content} <span className="font-black">¿A qué esperas?</span>
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        {content} <span className="font-black">{slogan}</span>
       </p>
-      <Link
-        href="#"
-        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ext-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg"
-      >
-        Elegir Plan
-        <svg
-          aria-hidden="true"
-          class="w-4 h-4 ml-2 -mr-1"
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
+      {show && (
+        <Link
+          href="#"
+          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ext-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg"
         >
-          <path
-            fill-rule="evenodd"
-            d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </Link>
+          Elegir Plan
+          <svg
+            aria-hidden="true"
+            className="w-4 h-4 ml-2 -mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fillRule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clipRule="evenodd"
+            ></path>
+          </svg>
+        </Link>
+      )}
     </div>
   );
 }
