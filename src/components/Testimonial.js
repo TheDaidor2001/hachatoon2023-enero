@@ -14,7 +14,7 @@ export default function Testimonial({img, title, text, name, job}) {
     </blockquote>
     <figcaption class="flex items-center justify-center space-x-3">
       <Image
-        class="rounded-full w-9 h-9"
+        class="rounded-full w-9 h-9 object-cover"
         src={img}
         alt="profile picture"
         width={50}

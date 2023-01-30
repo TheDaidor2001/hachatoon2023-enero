@@ -10,6 +10,12 @@ import workout from "../../public/gym-medal-necklace-svgrepo-com.svg";
 import diet from "../../public/diet-calendar-svgrepo-com.svg";
 import food from "../../public/food.png";
 import woman from "../../public/woman.png"
+import t1 from "../../public/t1.jpg"
+import t2 from "../../public/t2.jpg"
+import t3 from "../../public/t3.jpg"
+import t4 from "../../public/t4.jpg"
+import t5 from "../../public/t5.jpg"
+import t6 from "../../public/t6.jpg"
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -93,44 +99,44 @@ export default function Home() {
             <Testimonial 
               title={"Buenas rutinas y dietas"}
               text={"Si no tienes idea de nutricion o ejercicios esta será una buena alternativa para ti"}
-              name={"Juan Pérez"}
+              name={"Alicia Ramirez"}
               job={"Nutricionista"}
-              img={workout}
+              img={t1}
             />
             <Testimonial 
-              title={"Buenas rutinas y dietas"}
-              text={"Si no tienes idea de nutricion o ejercicios esta será una buena alternativa para ti"}
-              name={"Juan Pérez"}
+              title={"Excelente herramienta"}
+              text={"Me ha servido mucho a la hora de poder asignar dietas dependiendo de la persona"}
+              name={"Ana Castillo"}
               job={"Nutricionista"}
-              img={workout}
+              img={t2}
             />
             <Testimonial 
-              title={"Buenas rutinas y dietas"}
-              text={"Si no tienes idea de nutricion o ejercicios esta será una buena alternativa para ti"}
+              title={"Me ha encantado"}
+              text={"Desde que conozco esta herramienta me a ayudado mucho para enseñar a otros diferentes ejercicios"}
               name={"Juan Pérez"}
-              job={"Nutricionista"}
-              img={workout}
+              job={"Monitor de gimnasio"}
+              img={t3}
             />
             <Testimonial 
-              title={"Buenas rutinas y dietas"}
-              text={"Si no tienes idea de nutricion o ejercicios esta será una buena alternativa para ti"}
-              name={"Juan Pérez"}
-              job={"Nutricionista"}
-              img={workout}
+              title={"Útil para principiantes"}
+              text={"Si todavia no tienes mucha idea de nutricion o de ejercicios esta es tu herramienta"}
+              name={"Alfonso Castro"}
+              job={"Culturista"}
+              img={t4}
             />
             <Testimonial 
-              title={"Buenas rutinas y dietas"}
-              text={"Si no tienes idea de nutricion o ejercicios esta será una buena alternativa para ti"}
-              name={"Juan Pérez"}
-              job={"Nutricionista"}
-              img={workout}
+              title={"Buenos resultados"}
+              text={"Si deseas ver resultados sin necesidad de un entrenador personal debes utilizar esta app"}
+              name={"Álvaro Alonso"}
+              job={"Deportista"}
+              img={t5}
             />
             <Testimonial 
-              title={"Buenas rutinas y dietas"}
-              text={"Si no tienes idea de nutricion o ejercicios esta será una buena alternativa para ti"}
-              name={"Juan Pérez"}
-              job={"Nutricionista"}
-              img={workout}
+              title={"Muy sencilla de utlizar"}
+              text={"Es muy facil de utlizar y te da tanto rutinas de deporte como una buena dieta equilibrada. Es muy completa"}
+              name={"Marta Lopez"}
+              job={"Deportista"}
+              img={t6}
             />
           </div>
         </section>
