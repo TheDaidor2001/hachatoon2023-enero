@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
       <main>
         <section className="w-full h-screen bg-[url('/inicio.png')] bg-cover bg-center flex justify-center items-center">
-          <div className="container mx-auto px-7 lg:px-40 pt-10">
+          <div className="container mx-auto px-7 lg:px-40">
             <h1 className="text-7xl sm:text-8xl lg:text-9xl capitalize font-black text-white sm:pt-10 xl:text-[150px] 2xl:text-[200px]">
               Mejora tu vida ahora
             </h1>
