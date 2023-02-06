@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function CardChoose({ title, content, img, slogan, show }) {
+export default function CardChoose({ title, content, img, slogan, show, url }) {
   return (
-    <div className="max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-xl transition-all">
+    <div className="max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-xl transition-all mx-auto">
       <Image
         className="w-24 py-5"
         src={img}
@@ -20,7 +20,7 @@ export default function CardChoose({ title, content, img, slogan, show }) {
       </p>
       {show && (
         <Link
-          href="#"
+          href={`${url}`}
           className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ext-white bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-pink-300 dark:focus:ring-pink-800 rounded-lg"
         >
           Elegir Plan

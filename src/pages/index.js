@@ -73,7 +73,7 @@ export default function Home() {
         </section>
         <section className=" container mx-auto  ">
           <div className="flex flex-col-reverse lg:flex-row justify-around items-center">
-            <div className="border-4 border-pink-700 p-7 m-5 max-w-2xl max-h-auto ">
+            <div className="border-4 border-pink-500 p-7 m-5 max-w-2xl max-h-auto ">
               <h2 className="text-4xl lg:text-6xl uppercase font-light">
                 ¿Estás listo <br />
                 <span className="font-black">para el cambio</span>?
