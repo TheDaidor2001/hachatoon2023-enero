@@ -18,7 +18,7 @@ export default function Workout(){
       </Head>
       <main className="container mx-auto">
         <h1 className=" font-black text-transparent lg:text-8xl text-center bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500 mt-10 uppercase text-5xl">
-          Personalize su rutina
+          Personaliza tu rutina
         </h1>
         <p className="text-center text-gray-600 mt-10 text-xl underline">
           Rellena todos los campos para poder acceder a un plan personalizado de

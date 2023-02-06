@@ -72,7 +72,7 @@ export async function getWorkout(gender, year, objetive, planning) {
             Dedicate 5-10 minutes at the end of each session to stretch your muscles and prevent injury.
         --
 
-        Routine for ${year} year old ${gender} aiming to ${objetive} by training in the ${planning}
+        Routine for ${year} years old ${gender} aiming to ${objetive} by training in the ${planning}
         
         rutine: 
         --`,

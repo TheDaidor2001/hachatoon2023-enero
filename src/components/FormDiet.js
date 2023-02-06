@@ -89,7 +89,7 @@ export default function Form() {
             <div className="w-full">
               <label
                 htmlFor="sex"
-                className="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
               >
                 Sexo
               </label>
@@ -113,7 +113,7 @@ export default function Form() {
             <div>
               <label
                 htmlFor="old"
-                className="block mb-2 text-sm font-medium text-gray-900"
+                className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
               >
                 Edad
               </label>
@@ -135,7 +135,7 @@ export default function Form() {
           <div className="mb-6">
             <label
               htmlFor="objetivo"
-              className="block mb-2 text-sm font-medium text-gray-900"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               Objetivo
             </label>
@@ -149,7 +149,7 @@ export default function Form() {
             >
               <option value="">-- Elige una Opción --</option>
               <option value="loose weight">Perder peso</option>
-              <option value="gain weigth">Ganar peso</option>
+              <option value="gain muscles">Ganar masa muscular</option>
             </select>
             {error.type === "objetivo" && (
               <p className="text-red-500 text-sm">{error.msg}</p>
@@ -158,7 +158,7 @@ export default function Form() {
           <div className="mb-6">
             <label
               htmlFor="objetivo"
-              className="block mb-2 text-sm font-medium text-gray-900"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
               Entrenamiento
             </label>
